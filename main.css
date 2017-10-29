@@ -1,0 +1,57 @@
+html{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+.centerbutton{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:530px;
+}
+
+.button {
+    height: 500px;
+    width: 500px;
+    position:absolute;z-index: 9;
+    background-color: Transparent;
+    backface-visibility: hidden;
+    color:white;
+    border:none;
+    outline:none;
+}
+.button:hover {
+    cursor: pointer;
+    background-image: url(http://i.imgur.com/KF1epAA.png);
+}
+
+.center {
+    margin-right:490px;
+}
+
+.col1{
+    position:absolute;z-index: 0; opacity: 0.8;
+}
+
+.noun1{
+    position:absolute;z-index: 3;
+}
+
+.noun2{
+    position:absolute;z-index: 1;
+}
+
+.adj1{     
+    position:absolute;z-index: 5;
+}
+
+.adj2{ 
+    position:absolute;z-index: 2;
+}
+
+.verb{
+    position:absolute;z-index: 4;
+}

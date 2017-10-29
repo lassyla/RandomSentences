@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="main.css"/>
+        <link href='https://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+        <link rel="shortcut icon" href="http://i.imgur.com/YFhaZZ7.png"/>
+        <title id="rsg">RSG+d</title>
+    </head>
+    <style>
+        body{
+            font-family: 'Gloria Hallelujah', cursive;
+        }
+    </style>
+    <body>
+        <h1>Random Sentence Generator! + doodle</h1>
+        <div class="btn-group">
+            <button type="button" class="btn btn-danger btn-lg disabled">The</button>
+            <button type="button" class="btn btn-default btn-lg" id="adj1_word" onclick="adj1_reset()"></button>
+            <button type="button" class="btn btn-default btn-lg" id="col1_word" onclick="col1_reset()"></button>
+            <button type="button" class="btn btn-default btn-lg" id="noun1_word" onclick="noun1_reset()"></button>
+            <button type="button" class="btn btn-default btn-lg" id="verb_word" onclick="verb_reset()"></button>
+            <button type="button" class="btn btn-danger btn-lg disabled">the</button>
+            <button type="button" class="btn btn-default btn-lg" id="adj2_word" onclick="adj2_reset()"></button>
+            <button type="button" class="btn btn-default btn-lg" id="noun2_word" onclick="noun2_reset()"></button>
+        </div>
+        <div class="center">
+            <img id="col1" src="" class="col1"/>
+            <img id="adj1" src="" class="adj1"/>
+            <img id="noun1" src="" class="noun1"/>
+            <img id="verb" src="" class="verb"/>
+            <img id="adj2" src="" class="adj2"/>
+            <img id="noun2" src="" class="noun2"/>
+            <button class="button" onclick="createSentence()"></button>
+        </div>
+        <a href="credits.html">
+            <button type="button" class="btn btn-primary centerbutton">Credits =3</button>
+        </a>
+        <script src="randomize.js"></script>
+    </body>
+</html>
